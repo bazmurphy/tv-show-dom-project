@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.app-container {
+  width: 80vw;
+  margin-top: 0.5rem;
+  border: 0.2rem solid hsl(200, 86%, 31%);
+  border-radius: 0.25rem;
+  font-family: "Martel", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  background-color: hsl(195, 53%, 79%);
+  border-bottom: 0.2rem solid hsl(200, 86%, 31%);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title-image {
+
+}
+
+.title-heading {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.functionality-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.show-select {
+  padding: 0.25rem;
+  border: 0.15rem solid hsl(200, 86%, 71%);
+  border-radius: 0.25rem;
+  font-family: "Martel", sans-serif;
+  font-size: 0.9rem;
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.episode-select {
+  padding: 0.25rem;
+  border: 0.15rem solid hsl(200, 86%, 71%);
+  border-radius: 0.25rem;
+  font-family: "Martel", sans-serif;
+  font-size: 0.9rem;
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.show-select-option,
+.episode-select-option {
+  font-family: "Martel", sans-serif;
+  font-size: 0.9rem;
+}
+
+.search-input {
+  padding: 0.25rem;
+  border: 0.15rem solid hsl(200, 86%, 71%);
+  border-radius: 0.25rem;
+  font-family: "Martel", sans-serif;
+  font-size: 0.9rem;
+}
+
+.search-reset-button {
+  padding: 0.25rem 0.5rem;
+  border: 0.15rem solid hsl(200, 86%, 71%);
+  border-radius: 0.25rem;
+  background-color: hsl(195, 53%, 89%);
+  font-family: "Martel", sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.search-reset-button:hover {
+  background-color: hsl(195, 53%, 94%);
+}
+
+.search-results-info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.search-results-info-span-two,
+.search-results-info-span-four {
+  font-weight: 900;
+}
+
+.episodes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: hsl(195, 53%, 19%);
+}
+
+.episode-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(0, 0%, 75%);
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 85%);
+  color: hsl(0, 0%, 20%);
+}
+
+.episode-title {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(0, 0%, 80%);
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 90%);
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+  box-shadow: hsla(206, 6%, 25%, 0.3) 0px 1px 2px 0px, hsla(206, 6%, 25%, 0.15) 0px 1px 3px 1px;
+}
+
+.episode-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  border: 0.15rem solid hsl(0, 0%, 80%);
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 90%);
+  box-shadow: hsla(206, 6%, 25%, 0.3) 0px 1px 2px 0px, hsla(206, 6%, 25%, 0.15) 0px 1px 3px 1px;
+}
+
+.episode-image {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: hsla(206, 6%, 25%, 0.3) 0px 1px 2px 0px, hsla(206, 6%, 25%, 0.15) 0px 1px 3px 1px;
+}
+
+.episode-summary {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-top: 0.2rem solid hsl(200, 86%, 31%);
+  background-color: hsl(195, 53%, 79%);
+  font-size: 0.9rem;
+}
+
+.footer-span-one {
+
+}
+
+.footer-span-two {
+  color: inherit;
+  font-weight: 900;
+  text-decoration: none;
+}
